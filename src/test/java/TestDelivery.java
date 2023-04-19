@@ -30,7 +30,7 @@ public class TestDelivery {
         $("[data-test-id=agreement]").click();
         SelenideElement button = $x("//*[contains(text(), 'Забронировать')]");
         button.click();
-        $x("//*[contains(text(),'Встреча успешно забронирована на ' )]").shouldBe(Condition.visible, Duration.ofSeconds(15));
+        $x("//*[contains(tex(),'Встреча успешно забронирована на ' )]").shouldBe(Condition.visible, Duration.ofSeconds(15));
 
     }
 
