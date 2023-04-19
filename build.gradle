@@ -17,6 +17,7 @@ repositories {
 dependencies {
 
     implementation 'com.codeborne:selenide:6.12.2'
+    implementation 'org.seleniumhq.selenium:selenium:2.0b3'
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.0'
 }
 
